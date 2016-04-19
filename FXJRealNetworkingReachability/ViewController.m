@@ -18,12 +18,12 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
-    NSString *remoteHostName = @"www.apple.com";
+    NSString *remoteHostName = @"www.baidu.com";
     self.hostReachability = [Reachability reachabilityWithHostName:remoteHostName];
     [self.hostReachability startNotifier];
 }
@@ -42,13 +42,13 @@
                     NSLog(@"WiFi");
                     break;
                 case 2:
-                    NSLog(@"蜂窝");
+                    NSLog(@"WWAN");
                     break;
                 default:
                     break;
             }
         }else{
-            NSLog(@"无网络连接");
+            NSLog(@"Unable to connect to the Internet");
         }
     }
 }
