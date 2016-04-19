@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223DF39A1CC5D08700BE69A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 223DF3991CC5D08700BE69A7 /* main.m */; };
+		223DF39D1CC5D08700BE69A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 223DF39C1CC5D08700BE69A7 /* AppDelegate.m */; };
+		223DF3A01CC5D08700BE69A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223DF39F1CC5D08700BE69A7 /* ViewController.m */; };
+		223DF3A31CC5D08700BE69A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223DF3A11CC5D08700BE69A7 /* Main.storyboard */; };
+		223DF3A51CC5D08700BE69A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223DF3A41CC5D08700BE69A7 /* Assets.xcassets */; };
+		223DF3A81CC5D08700BE69A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223DF3A61CC5D08700BE69A7 /* LaunchScreen.storyboard */; };
+		223DF3B31CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223DF3B21CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.m */; };
+		223DF3BE1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223DF3BD1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.m */; };
+		223DF3DA1CC5D4DE00BE69A7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 223DF3D91CC5D4DE00BE69A7 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		223DF3AF1CC5D08700BE69A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223DF38D1CC5D08700BE69A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223DF3941CC5D08700BE69A7;
+			remoteInfo = FXJRealNetworkingReachability;
+		};
+		223DF3BA1CC5D08700BE69A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223DF38D1CC5D08700BE69A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223DF3941CC5D08700BE69A7;
+			remoteInfo = FXJRealNetworkingReachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		223DF3951CC5D08700BE69A7 /* FXJRealNetworkingReachability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXJRealNetworkingReachability.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223DF3991CC5D08700BE69A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		223DF39B1CC5D08700BE69A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		223DF39C1CC5D08700BE69A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		223DF39E1CC5D08700BE69A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		223DF39F1CC5D08700BE69A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		223DF3A21CC5D08700BE69A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		223DF3A41CC5D08700BE69A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223DF3A71CC5D08700BE69A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		223DF3A91CC5D08700BE69A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223DF3AE1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXJRealNetworkingReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223DF3B21CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXJRealNetworkingReachabilityTests.m; sourceTree = "<group>"; };
+		223DF3B41CC5D08700BE69A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223DF3B91CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXJRealNetworkingReachabilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223DF3BD1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXJRealNetworkingReachabilityUITests.m; sourceTree = "<group>"; };
+		223DF3BF1CC5D08700BE69A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223DF3D81CC5D4DE00BE69A7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		223DF3D91CC5D4DE00BE69A7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223DF3921CC5D08700BE69A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223DF3AB1CC5D08700BE69A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223DF3B61CC5D08700BE69A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223DF38C1CC5D08700BE69A7 = {
+			isa = PBXGroup;
+			children = (
+				223DF3971CC5D08700BE69A7 /* FXJRealNetworkingReachability */,
+				223DF3B11CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests */,
+				223DF3BC1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests */,
+				223DF3961CC5D08700BE69A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		223DF3961CC5D08700BE69A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223DF3951CC5D08700BE69A7 /* FXJRealNetworkingReachability.app */,
+				223DF3AE1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.xctest */,
+				223DF3B91CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		223DF3971CC5D08700BE69A7 /* FXJRealNetworkingReachability */ = {
+			isa = PBXGroup;
+			children = (
+				223DF3CB1CC5D0A200BE69A7 /* Ping */,
+				223DF39B1CC5D08700BE69A7 /* AppDelegate.h */,
+				223DF39C1CC5D08700BE69A7 /* AppDelegate.m */,
+				223DF39E1CC5D08700BE69A7 /* ViewController.h */,
+				223DF39F1CC5D08700BE69A7 /* ViewController.m */,
+				223DF3A11CC5D08700BE69A7 /* Main.storyboard */,
+				223DF3A41CC5D08700BE69A7 /* Assets.xcassets */,
+				223DF3A61CC5D08700BE69A7 /* LaunchScreen.storyboard */,
+				223DF3A91CC5D08700BE69A7 /* Info.plist */,
+				223DF3981CC5D08700BE69A7 /* Supporting Files */,
+			);
+			path = FXJRealNetworkingReachability;
+			sourceTree = "<group>";
+		};
+		223DF3981CC5D08700BE69A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				223DF3991CC5D08700BE69A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		223DF3B11CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				223DF3B21CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.m */,
+				223DF3B41CC5D08700BE69A7 /* Info.plist */,
+			);
+			path = FXJRealNetworkingReachabilityTests;
+			sourceTree = "<group>";
+		};
+		223DF3BC1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				223DF3BD1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.m */,
+				223DF3BF1CC5D08700BE69A7 /* Info.plist */,
+			);
+			path = FXJRealNetworkingReachabilityUITests;
+			sourceTree = "<group>";
+		};
+		223DF3CB1CC5D0A200BE69A7 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				223DF3D81CC5D4DE00BE69A7 /* Reachability.h */,
+				223DF3D91CC5D4DE00BE69A7 /* Reachability.m */,
+			);
+			name = Ping;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		223DF3941CC5D08700BE69A7 /* FXJRealNetworkingReachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223DF3C21CC5D08700BE69A7 /* Build configuration list for PBXNativeTarget "FXJRealNetworkingReachability" */;
+			buildPhases = (
+				223DF3911CC5D08700BE69A7 /* Sources */,
+				223DF3921CC5D08700BE69A7 /* Frameworks */,
+				223DF3931CC5D08700BE69A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXJRealNetworkingReachability;
+			productName = FXJRealNetworkingReachability;
+			productReference = 223DF3951CC5D08700BE69A7 /* FXJRealNetworkingReachability.app */;
+			productType = "com.apple.product-type.application";
+		};
+		223DF3AD1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223DF3C51CC5D08700BE69A7 /* Build configuration list for PBXNativeTarget "FXJRealNetworkingReachabilityTests" */;
+			buildPhases = (
+				223DF3AA1CC5D08700BE69A7 /* Sources */,
+				223DF3AB1CC5D08700BE69A7 /* Frameworks */,
+				223DF3AC1CC5D08700BE69A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223DF3B01CC5D08700BE69A7 /* PBXTargetDependency */,
+			);
+			name = FXJRealNetworkingReachabilityTests;
+			productName = FXJRealNetworkingReachabilityTests;
+			productReference = 223DF3AE1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		223DF3B81CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223DF3C81CC5D08700BE69A7 /* Build configuration list for PBXNativeTarget "FXJRealNetworkingReachabilityUITests" */;
+			buildPhases = (
+				223DF3B51CC5D08700BE69A7 /* Sources */,
+				223DF3B61CC5D08700BE69A7 /* Frameworks */,
+				223DF3B71CC5D08700BE69A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223DF3BB1CC5D08700BE69A7 /* PBXTargetDependency */,
+			);
+			name = FXJRealNetworkingReachabilityUITests;
+			productName = FXJRealNetworkingReachabilityUITests;
+			productReference = 223DF3B91CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		223DF38D1CC5D08700BE69A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LSH;
+				TargetAttributes = {
+					223DF3941CC5D08700BE69A7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VB33PF797Z;
+					};
+					223DF3AD1CC5D08700BE69A7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VB33PF797Z;
+						TestTargetID = 223DF3941CC5D08700BE69A7;
+					};
+					223DF3B81CC5D08700BE69A7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VB33PF797Z;
+						TestTargetID = 223DF3941CC5D08700BE69A7;
+					};
+				};
+			};
+			buildConfigurationList = 223DF3901CC5D08700BE69A7 /* Build configuration list for PBXProject "FXJRealNetworkingReachability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 223DF38C1CC5D08700BE69A7;
+			productRefGroup = 223DF3961CC5D08700BE69A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				223DF3941CC5D08700BE69A7 /* FXJRealNetworkingReachability */,
+				223DF3AD1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests */,
+				223DF3B81CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		223DF3931CC5D08700BE69A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223DF3A81CC5D08700BE69A7 /* LaunchScreen.storyboard in Resources */,
+				223DF3A51CC5D08700BE69A7 /* Assets.xcassets in Resources */,
+				223DF3A31CC5D08700BE69A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223DF3AC1CC5D08700BE69A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223DF3B71CC5D08700BE69A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223DF3911CC5D08700BE69A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223DF3A01CC5D08700BE69A7 /* ViewController.m in Sources */,
+				223DF39D1CC5D08700BE69A7 /* AppDelegate.m in Sources */,
+				223DF39A1CC5D08700BE69A7 /* main.m in Sources */,
+				223DF3DA1CC5D4DE00BE69A7 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223DF3AA1CC5D08700BE69A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223DF3B31CC5D08700BE69A7 /* FXJRealNetworkingReachabilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223DF3B51CC5D08700BE69A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223DF3BE1CC5D08700BE69A7 /* FXJRealNetworkingReachabilityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223DF3B01CC5D08700BE69A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223DF3941CC5D08700BE69A7 /* FXJRealNetworkingReachability */;
+			targetProxy = 223DF3AF1CC5D08700BE69A7 /* PBXContainerItemProxy */;
+		};
+		223DF3BB1CC5D08700BE69A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223DF3941CC5D08700BE69A7 /* FXJRealNetworkingReachability */;
+			targetProxy = 223DF3BA1CC5D08700BE69A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		223DF3A11CC5D08700BE69A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223DF3A21CC5D08700BE69A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		223DF3A61CC5D08700BE69A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223DF3A71CC5D08700BE69A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		223DF3C01CC5D08700BE69A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		223DF3C11CC5D08700BE69A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		223DF3C31CC5D08700BE69A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FXJRealNetworkingReachability/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lianshang.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		223DF3C41CC5D08700BE69A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FXJRealNetworkingReachability/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lianshang.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		223DF3C61CC5D08700BE69A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FXJRealNetworkingReachabilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lianshang.FXJRealNetworkingReachabilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXJRealNetworkingReachability.app/FXJRealNetworkingReachability";
+			};
+			name = Debug;
+		};
+		223DF3C71CC5D08700BE69A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FXJRealNetworkingReachabilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lianshang.FXJRealNetworkingReachabilityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXJRealNetworkingReachability.app/FXJRealNetworkingReachability";
+			};
+			name = Release;
+		};
+		223DF3C91CC5D08700BE69A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FXJRealNetworkingReachabilityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lianshang.FXJRealNetworkingReachabilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FXJRealNetworkingReachability;
+			};
+			name = Debug;
+		};
+		223DF3CA1CC5D08700BE69A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FXJRealNetworkingReachabilityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lianshang.FXJRealNetworkingReachabilityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FXJRealNetworkingReachability;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223DF3901CC5D08700BE69A7 /* Build configuration list for PBXProject "FXJRealNetworkingReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223DF3C01CC5D08700BE69A7 /* Debug */,
+				223DF3C11CC5D08700BE69A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223DF3C21CC5D08700BE69A7 /* Build configuration list for PBXNativeTarget "FXJRealNetworkingReachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223DF3C31CC5D08700BE69A7 /* Debug */,
+				223DF3C41CC5D08700BE69A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223DF3C51CC5D08700BE69A7 /* Build configuration list for PBXNativeTarget "FXJRealNetworkingReachabilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223DF3C61CC5D08700BE69A7 /* Debug */,
+				223DF3C71CC5D08700BE69A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223DF3C81CC5D08700BE69A7 /* Build configuration list for PBXNativeTarget "FXJRealNetworkingReachabilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223DF3C91CC5D08700BE69A7 /* Debug */,
+				223DF3CA1CC5D08700BE69A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 223DF38D1CC5D08700BE69A7 /* Project object */;
+}
