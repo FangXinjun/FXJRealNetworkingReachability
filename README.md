@@ -4,7 +4,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
     NSString *remoteHostName = @"www.baidu.com";
     self.hostReachability = [Reachability reachabilityWithHostName:remoteHostName];
@@ -18,20 +18,23 @@
     if (curReach == self.hostReachability)
     {
         NetworkStatus netStatus = [curReach currentReachabilityStatus];
-        if (netStatus) {
+        if (netStatus) 
+       {
             NetworkStatus netStatus = [curReach currentReachabilityStatus];
-            switch (netStatus) {
+            switch (netStatus) 
+            {
                 case 1:
-                    NSLog(@"WiFi");
-                    break;
+                NSLog(@"WiFi");
+                break;
                 case 2:
-                    NSLog(@"WWAN");
-                    break;
+                NSLog(@"WWAN");
+                break;
                 default:
-                    break;
+                break;
             }
-        }else{
-            NSLog(@"Unable to connect to the Internet");
-        }
-    }
+       }else
+       {
+           NSLog(@"Unable to connect to the Internet");
+       }
+   }
 }
