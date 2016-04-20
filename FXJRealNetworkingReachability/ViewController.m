@@ -13,6 +13,7 @@
 
 @property (nonatomic) Reachability *hostReachability;
 
+@property (weak, nonatomic) IBOutlet UILabel *tipsLable;
 
 @end
 
@@ -40,15 +41,19 @@
             switch (netStatus) {
                 case 1:
                     NSLog(@"WiFi");
+                    self.tipsLable.text = @"WiFi";
                     break;
                 case 2:
                     NSLog(@"WWAN");
+                    self.tipsLable.text = @"WWAN";
+
                     break;
                 default:
                     break;
             }
         }else{
             NSLog(@"Unable to connect to the Internet");
+            self.tipsLable.text = @"Unable to connect to the Internet";
         }
     }
 }

@@ -16,11 +16,31 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kke-WA-IZS">
+                                <rect key="frame" x="166" y="268.5" width="268" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="dWg-Mo-ETk"/>
+                                    <constraint firstAttribute="width" constant="268" id="vIG-jp-EqI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kke-WA-IZS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LNd-Hh-F5D"/>
+                            <constraint firstItem="Kke-WA-IZS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sjc-Yw-ccY"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tipsLable" destination="Kke-WA-IZS" id="f9m-B4-Toh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="284"/>
         </scene>
     </scenes>
 </document>
